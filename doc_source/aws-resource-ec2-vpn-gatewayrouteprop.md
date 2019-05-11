@@ -78,7 +78,7 @@ Type: AWS::EC2::VPNGatewayRoutePropagation
        RouteTableIds: 
         - !Ref PrivateRouteTable
        VpnGatewayId: 
-      ` !Ref VPNGateway
+        !Ref VPNGateway
 ```
 
 ## See Also<a name="aws-resource-ec2-vpn-gatewayrouteprop--seealso"></a>
